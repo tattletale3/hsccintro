@@ -1,23 +1,23 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color:black;
-  color: white;
+  background-color:grey;
+  color: black;
 }
 
 a {
-  color: #00B7FF;
+  color: #000000;
 }
 
 h1 {
-  color:yellow;
+  color: white;
 }
 
 .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:#ccc;
+  background-color:#000000;
 }
 
 .menu li {

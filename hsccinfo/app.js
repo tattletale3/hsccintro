@@ -16,6 +16,8 @@ var formentryRouter = require('./routes/formentry');
 var registerTestRouter = require('./routes/registertest');
 var loginTestRouter = require('./routes/logintest');
 var electionMetaRouter = require('./routes/electionmeta');
+var  createelectionRouter = require('./routes/createelection');
+var  viewelectionRouter = require('./routes/viewelection');
 // Setting up Express app
 var app = express();
 
@@ -39,6 +41,8 @@ app.use('/bdpahistory', bdpahistoryRouter);
 app.use('/formentry', formentryRouter);
 app.use('/registertest', registerTestRouter);
 app.use('/electionmeta', electionMetaRouter);
+app.use('/createelection', createelectionRouter);
+app.use('/viewelection', viewelectionRouter);
 app.use('/logintest', loginTestRouter);
 
 // catch 404 and forward to error handler
